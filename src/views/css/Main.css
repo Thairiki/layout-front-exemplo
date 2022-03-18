@@ -1,0 +1,314 @@
+.title1 {
+    display: inline-block;
+    margin: min(2vw, 32px) 0 min(2vw, 29px) 0px;
+    font-size: min(2.5vw, 32px);
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #01579b;
+    position: relative;
+    z-index: 0;
+}
+
+.title1:after {
+    content: "";
+    float: left;
+    display: flex;
+    background: rgba(225, 245, 254, 0.7);
+    width: 97%;
+    height: 15px;
+    position: absolute;
+    bottom: 3px;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.title2 {
+    font-size: min(1.4vw, 20px);
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #616161;
+}
+
+.title3 {
+    font-size: min(2vw, 24px);
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.padPadrao {
+    padding: 0 20% !important;
+}
+
+.noticiaContainer {
+    max-width: 49% !important;
+    margin: 16px 16px;
+    padding: 5px 5px !important;
+    position: relative;
+    border-radius: 24px !important;
+    cursor: pointer;
+}
+
+.noticiaContainer:hover .title2 {
+    color: #01579b;
+}
+
+.noticiaContainer:hover .title3 {
+    color: #01579b;
+}
+
+.noticiaContainer:active .title2 {
+    color: black;
+}
+
+.noticiaContainer:hover .noticia1 {
+    transform: scale(1.1);
+}
+
+.noticiaContainer:active .noticia1 {
+    transform: scale(1);
+}
+
+.noticiaContainer2 {
+    margin: min(1vw, 16px) min(1vw, 16px) !important;
+    padding: 5px 5px !important;
+    position: relative;
+    border-radius: 24px !important;
+}
+
+.borderNoticia {
+    border-radius: 24px !important;
+}
+
+img.noticia1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    border-radius: 24px !important;
+    object-fit: cover;
+    transition: transform .2s;
+}
+
+img.noticia2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    border-radius: 24px !important;
+    object-fit: cover;
+}
+
+.noticiaImg {
+    height: min(25vw, 316px);
+    display: inline-block;
+    border: 5px;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.noticiaImg2 {
+    width: 100%;
+    height: min(8vw, 134px);
+    display: inline-block;
+    border: 5px;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.date {
+    padding: 6px 20px;
+    margin: 0;
+    background-color: #4fc3f7;
+    border-radius: 12px;
+    position: absolute;
+    font-size: min(1.1vw, 14px);
+    text-align: center;
+    align-content: center;
+    top: 25px;
+    left: 30px;
+}
+
+.v-separator {
+    content: "";
+    max-width: 0 !important;
+    border-right: 1px solid #fafafa;
+    border-left: 1px solid #dfdfdf;
+    padding: 0 !important;
+    margin: 16px 0 !important;
+    position: relative;
+}
+
+.noticiasButton {
+    border-radius: 16px !important;
+    padding: min(0.9vw, 14px) min(3vw, 44px) !important;
+    font-size: min(1.1vw, 16px) !important;
+}
+
+.banner {
+    max-width: 50%;
+    max-height: 50%;
+    display: inline-block;
+    margin: 0 30px 0 0;
+    padding: 0 0 !important;
+    object-fit: contain;
+    border-radius: 24px;
+}
+
+.banner2 {
+    max-width: 50%;
+    max-height: 50%;
+    display: inline-block;
+    margin: 0 !important;
+    padding: 0 0 !important;
+    object-fit: contain;
+    border-radius: 24px;
+}
+
+.blueBar {
+    flex-grow: 0;
+    padding: 8px 0;
+    border-radius: 24px;
+    background-color: #01579b;
+}
+
+.eventos {
+    margin: min(1vw, 16px) min(2vw, 30px) !important;
+    padding: 5px 5px !important;
+    border-radius: 24px !important;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.v-separator2 {
+    content: "";
+    max-width: 0 !important;
+    border-right: 1px solid #fafafa;
+    border-left: 1px solid #dfdfdf;
+    padding: 0 !important;
+    margin: 30px 0 !important;
+    position: relative;
+}
+
+.eventosImg {
+    width: 100%;
+    height: min(15vw, 204px);
+    display: inline-block;
+    border: 5px;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.textStyle1 {
+    font-size: min(2vw, 32px);
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #01579b;
+}
+
+.textStyle2 {
+    font-size: min(1.5vw, 24px);
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #01579b;
+}
+
+.textStyle3 {
+    font-size: min(1vw, 16px);
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #01579b;
+}
+
+.textStyle4 {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #616161;
+}
+
+.player {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    border-radius: 24px !important;
+    object-fit: cover;
+}
+
+.title5 {
+    font-size: min(3vw, 48px);
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.subtitle1 {
+    font-size: min(1.5vw, 20px);
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #616161;
+}
+
+.title6 {
+    display: inline-block;
+    margin: min(2vw, 32px) 0 min(2vw, 29px) 0px;
+    font-size: min(2.5vw, 32px);
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+    position: relative;
+    z-index: 0;
+}
+
+.title6:after {
+    content: "";
+    float: left;
+    display: flex;
+    background: rgba(255, 255, 255, 0.25);
+    width: 97%;
+    height: 15px;
+    position: absolute;
+    bottom: 3px;
+    border-radius: 5px;
+    z-index: -1;
+}

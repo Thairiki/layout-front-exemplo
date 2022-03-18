@@ -1,0 +1,118 @@
+.topHeader {
+    /*height: 54px;*/
+    flex-grow: 0;
+    padding: 8px 8px 8px;
+    border-radius: 12px;
+}
+
+.topHeaderButtons {
+    width: min(9vw, 166px);
+    border-radius: 12px !important;
+    border: solid 1px #eee !important;
+    background-color: #fafafa;
+}
+
+.topHeaderButtons:hover {
+    max-width: 166px;
+    border-radius: 12px;
+    border: solid 1px #eee !important;
+    background-color: #0277bd;
+}
+
+.topHeaderButtons:active {
+    max-width: 166px;
+    max-height: 38px;
+    border-radius: 12px;
+    border: solid 1px #eee !important;
+    background-color: #01579b;
+}
+
+.topHeaderButtonsLabel {
+    width: 91px;
+    height: 15px;
+    font-size: min(1vw, 12px);
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+}
+
+.topFooter {
+    flex-grow: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    padding: 30px 15%;
+    background-color: #0277bd;
+}
+
+.footerText1 {
+    font-size: min(2vw, 24px);
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: white;
+}
+
+.footerText2 {
+    margin-top: 14px;
+    font-size: max(min(1.1vw, 16px), 10px);
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #e1f5fe;
+    cursor: pointer;
+}
+.footerText2:hover {
+    text-decoration: underline;
+}
+
+.footerText2:active {
+    text-decoration: underline;
+    color: white;
+}
+
+.midFooter {
+    flex-grow: 0;
+    display: block;
+    justify-content: center;
+    align-items: start;
+    padding: 30px 15%;
+    background-color: #01579b;
+}
+
+.botFooter {
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 15%;
+}
+
+#footerPadding {
+    padding-top: 12px;
+    font-size: max(min(1.1vw, 16px), 10px);
+}
+
+img.logoMpx {
+    height: min(5vw, 48px);
+}
+
+img.mapImage {
+    width: 100%;
+    cursor: pointer;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    object-fit: cover;
+}
