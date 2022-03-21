@@ -21,7 +21,6 @@
 
 .topHeaderButtons:active {
     max-width: 166px;
-    max-height: 38px;
     border-radius: 12px;
     border: solid 1px #eee !important;
     background-color: #01579b;

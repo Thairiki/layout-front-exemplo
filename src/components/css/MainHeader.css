@@ -105,11 +105,17 @@
     color: white;
 }
 
+.dropdown-menu {
+    transition: all 0.5s;
+    opacity: 0;
+}
+
 .myDropDownCss:hover .dropdown-menu {
+    opacity: 1;
     display: block;
     margin-top: 0;
     top: 90%;
-    left: 0px;
+    left: 0;
 }
 
 img.Vitrine {
